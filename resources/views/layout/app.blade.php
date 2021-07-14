@@ -9,11 +9,23 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body{
+                background-color: cyan;  
+            }
+        </style>
        
     <body>
         <header class="" id="site_header">
             <h1>laravel migration</h1>
-        </header>
+
+            </header>
        
         <main class="" id="site_main">
            @yield('content')
