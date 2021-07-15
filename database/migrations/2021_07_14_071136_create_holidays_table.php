@@ -17,7 +17,7 @@ class CreateHolidaysTable extends Migration
             $table->id();
             $table->string('place');
             $table->string('nation');
-            $table->date('period');
+            $table->year('period');
             $table->smallInteger('price');
             $table->text('description')->nullable();
             $table->string('hotel');
