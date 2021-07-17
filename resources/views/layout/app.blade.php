@@ -19,16 +19,23 @@
             body{
                 background-color: cyan;  
             }
+
+            .card{
+                background-color: red;
+                width: 200px
+            }
         </style>
        
     <body>
         <header class="" id="site_header">
-            <h1>laravel migration</h1>
+           
 
-            </header>
+        </header>
        
         <main class="" id="site_main">
+            <div class="card">
            @yield('content')
+          </div>
        </main>
        
        <footer class="" id="site_footer">
