@@ -7,11 +7,14 @@
 
 @section ('content')
 
-@foreach( $holidays as $holiday)
-                <img src="{{$holiday->cover_image}}" alt="">
-                <h2>{{$holiday->place}}</h2>
-                <p>{{$holiday->price}}</p>
-@endforeach
+
+    @foreach( $holidays as $holiday)
+            <div class="card">
+            <h2>{{$holiday->place}}</h2>
+            <img src="{{$holiday->cover_image}}" alt="">
+            <p>Prezzo per due persone: euro {{$holiday->price}}</p>
+            </div>
+    @endforeach
 
 
 

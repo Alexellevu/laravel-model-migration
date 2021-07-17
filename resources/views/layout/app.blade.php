@@ -8,23 +8,9 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
-        <style>
-            *{
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-
-            body{
-                background-color: cyan;  
-            }
-
-            .card{
-                background-color: red;
-                width: 200px
-            }
-        </style>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
        
     <body>
         <header class="" id="site_header">
@@ -33,8 +19,10 @@
         </header>
        
         <main class="" id="site_main">
-            <div class="card">
-           @yield('content')
+            <div class="container">
+              
+                @yield('content')
+               
           </div>
        </main>
        
