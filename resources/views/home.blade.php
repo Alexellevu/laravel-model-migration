@@ -1,6 +1,6 @@
 @extends('layout.app')
-@extends('partials.footer')
-@extends('partials.header')
+
+
 
 
 @section('title', 'Home Page')
@@ -12,7 +12,8 @@
             <div class="card">
             <h2>{{$holiday->place}}</h2>
             <img src="{{$holiday->cover_image}}" alt="">
-            <p>Prezzo per due persone: euro {{$holiday->price}}</p>
+            <p><strong> Prezzo per due persone: euro {{$holiday->price}}</strong></p>
+            <p>{{$holiday->description}}</p>
             </div>
     @endforeach
 

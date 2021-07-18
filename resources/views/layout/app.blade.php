@@ -13,10 +13,10 @@
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
        
     <body>
-        <header class="" id="site_header">
-           
+       
+        @include('partials.header')
 
-        </header>
+      
        
         <main class="" id="site_main">
             <div class="container">
@@ -26,8 +26,8 @@
           </div>
        </main>
        
-       <footer class="" id="site_footer">
-           
-       </footer>
+       
+       @include('partials.footer')
+       
     </body>
 </html>

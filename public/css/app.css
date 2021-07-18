@@ -9,6 +9,14 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+#site_header {
+  background-color: grey;
+}
+
+#site_main {
+  height: 100vh;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -21,10 +29,29 @@ body {
   margin: 20px;
   border: 1px solid grey;
   border-radius: 5px;
+  text-align: center;
 }
 
 .card > img {
   width: 400px;
   height: 250px;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+#site_footer {
+  text-align: center;
+  background-color: grey;
+}
+
+#site_footer > input {
+  height: 2rem;
+  width: 500px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
 }
 

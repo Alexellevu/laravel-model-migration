@@ -1,0 +1,13 @@
+#site_footer{
+    text-align: center;
+    background-color: $layout_grey;
+    height: 50px;
+    &>input{
+        height: 2rem;
+        width: 500px;
+        border: 2px solid gray ;
+        border-radius: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+}
